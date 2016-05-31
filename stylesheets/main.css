@@ -1,0 +1,37 @@
+html, body {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  font-family: "tahoma";
+}
+body > * {
+  color: white;
+  background-color: black;
+}
+header, footer {
+      margin: 0.2em;
+      padding: 0.3em;
+      text-align: center;
+      width: 100%;
+      } 
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 14%;
+    margin: 0.3em;
+  padding: 1em
+}    
+    .column {
+    margin: 0.3em;
+    min-height: 8em;
+    padding: 1em;
+    width: 54%;
+    }
+    aside {
+    margin: 0.3em;
+    min-height: 8em;
+    padding: 1em;
+    width: 18%;
+    }
+a:hover { color: pink; }
